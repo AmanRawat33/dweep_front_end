@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  border: none;
+  outline: none;
+  font-family: "Inter", sans-serif;
+}
+
+.content-container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #ffcd9e;
+}
+
+.left-content {
+  flex: 0 0 50%;
+  height: 100%;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+#highlighted-text-content {
+  font-weight: bold;
+}
+
+#right-content-image {
+  display: inline-block;
+}
+
+input {
+  line-height: 24px;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+#email-input {
+  height: 46px;
+  margin-right: 20px;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 16px;
+}
+
+#submit-button {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px;
+  color: white;
+  background-color: #282828;
+  cursor: pointer;
+}
+
+#text-below-form {
+  color: white;
+  font-size: 12px;
+  margin-top: 18px;
+  margin-left: 30px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  color: white;
+  background-color: #282828;
+}
+
+.footer-container {
+  font-size: 16px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#icons {
+  display: flex;
+  cursor: pointer;
+}
+li {
+  margin-bottom: 5px;
+}
+
+#footer-left {
+  width: 50%;
+}
